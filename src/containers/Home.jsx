@@ -1,9 +1,12 @@
 import React, { Component, Fragment } from 'react';
+
 import Navigation from '../components/Navigation/Navigation';
 import Service from '../components/Service/Service';
 import Clients from '../components/Clients/Clients';
 
+
 import '../stylesheets/Home/Home.scss';
+import Contact from '../components/Contact/Contact';
 
 class Home extends Component {
   constructor(props) {
@@ -33,6 +36,7 @@ class Home extends Component {
         </header>
         <Service />
         <Clients />
+        <Contact />
       </Fragment>
     );
   }
