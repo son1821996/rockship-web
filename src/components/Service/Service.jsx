@@ -13,7 +13,7 @@ class Service extends Component {
     return (
       <section className="service">
         <div className="service-introduce">
-          <div className="dash" style={{ backgroundColor: '#ffffff', height: '4px', width: '57px' }} />
+          <div className="dash" style={{ backgroundColor: '#ffffff', height: '4px', width: '60px' }} />
           <h1 className="title">
             Service
           </h1>
