@@ -1,0 +1,83 @@
+.about-us-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  margin-top: 50px;
+  .title {
+    height: 34px;
+    // font-family: ProximaNova;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+    padding-bottom: 6px;
+  }
+
+  .about-showcase {
+    margin-top: 105px;
+    padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .about-item {
+      img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      display: flex;
+      flex: 0 0 33.33%;
+      flex-direction: column;
+      text-align: center;
+
+      .flag-ship {
+        transition: transform .5s;
+      }
+
+      .flag-ship:hover {
+        transform: translateY(-10%);
+      }
+
+      .astronaut-img {
+        transition: transform .5s;
+      }
+
+      .astronaut-img:hover {
+        transform: rotate(45deg);
+      }
+    }
+    h3 {
+      height: 24px;
+    // font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+    }
+
+    p {
+      width: 307px;
+      height: 85px;
+      margin-left: auto;
+      margin-right: auto;
+      // font-family: ProximaNova;
+      font-size: 14px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #757575;
+    }
+  }
+}

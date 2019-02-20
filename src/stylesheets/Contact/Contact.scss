@@ -79,6 +79,10 @@
         }
         justify-content: space-between;
       }
+
+      .MuiInputLabel-animated-17 {
+        transition: color 400ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 400ms cubic-bezier(0.0, 0, 0.2, 1) 0ms
+      }
     }
 
     .contact-content {
