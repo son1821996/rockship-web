@@ -7,7 +7,7 @@ class ServiceItem extends Component {
       listService: [
         {
           id: 1,
-          icon: './img/service_i2.png',
+          icon: './img/service_i1.png',
           title: 'Software customization',
           description: 'Whether you aim to use blockchain to simplify a part of your value chain, or create an ecommerce ecosystem, our engineers know all key tech stacks needed to help you on this way.',
         },
@@ -19,7 +19,7 @@ class ServiceItem extends Component {
         },
         {
           id: 3,
-          icon: './img/service_i4.png',
+          icon: './img/service_i3.png',
           title: 'Standing Team ',
           description: 'A solid team isn’t easy to find, but with Rockship’s IT standing team services you can control every aspect of your development, while finding talent that you may not have access to on your local market. ',
         },
