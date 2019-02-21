@@ -32,8 +32,6 @@ class Home extends Component {
         <header
           style={{
             height: `${isClickToScroll ? '40vh' : '100vh'}`,
-            // display: `${isClickToScroll ? 'none' : 'unset'}`,
-            // transitionDelay: `${isClickToScroll ? 'display 3s' : 'unset'}`,
           }}
         >
           <Navigation />

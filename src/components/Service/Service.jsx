@@ -24,18 +24,6 @@ class Service extends Component {
           processing to product release with a
           caring touch following documented and proven processes that ensure a successful outcome.
           </p>
-          <ul>
-            <li>
-            A comprehensive project plan that clearly identifies the scope and schedule,
-            including implementation tasks and deliverables
-            </li>
-            <li>
-            A communication and education process that is effective and efficient
-            </li>
-            <li>
-            Dedicated support staff to assist your entire team through the go-live process
-            </li>
-          </ul>
         </div>
         <ServiceItem />
       </section>

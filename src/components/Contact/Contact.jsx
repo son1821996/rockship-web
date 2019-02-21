@@ -100,7 +100,7 @@ class Contact extends Component {
             />
             <div className="form-bottom">
               <div className="tell-more" style={{ alignItems: 'center' }}>
-                Tell us more about your business!
+                <span>Tell us more about your business!</span>
                 <ArrowRightAlt />
               </div>
               <button type="submit" className="form-bottom-right">

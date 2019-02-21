@@ -2,9 +2,20 @@
   display: flex;
   background-color: #1c1c1d;
   color: #ffffff;
-  flex-wrap: wrap;
   padding: 165px 76px 167px 76px;
   // flex-wrap: wrap;
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+  @media only screen and (max-width: 768px) {
+    flex-wrap: wrap;
+    padding: 60px 50px 100px 60px;
+  }
+
+  @media only screen and (max-width: 414px) {
+    flex-wrap: wrap;
+    padding: 60px 32px 60px 32px;
+  }
 
   .service-introduce {
     margin-top: 50px;
@@ -12,6 +23,9 @@
     margin-right: 117px;
     display: flex;
     flex-direction: column;
+    @media only screen and (max-width: 768px) {
+      flex: 0 0 90%;
+    }
     h1 {
       text-transform: uppercase;
       text-align: center;
@@ -36,23 +50,12 @@
       letter-spacing: normal;
       color: #ffffff;
     }
-    ul {
-      li {
-        // font-family: ProximaNova;
-        font-size: 14px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        color: #ffffff;
-      }
-    }
   }
 
   .service-list {
     display: flex;
     flex-wrap: wrap;
+    
     .service-item {
       width: 288px;
       height: 288px;
@@ -67,6 +70,12 @@
         margin-right: 20px;
         flex: 0 0 35%;
       }
+
+      @media only screen and (max-width: 568px) {
+        margin-right: 0;
+        flex: 0 0 60%;
+      }
+
 
       .title {
         // font-family: ProximaNova;

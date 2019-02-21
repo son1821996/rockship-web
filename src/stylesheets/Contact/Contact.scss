@@ -2,6 +2,15 @@
   background-color: #1c1c1d;
   color: #ffffff;
   padding: 165px 66px 167px 76px;
+  @media only screen and (max-width: 768px) {
+    flex-wrap: wrap;
+    padding: 60px 50px 100px 60px;
+  }
+
+  @media only screen and (max-width: 414px) {
+    flex-wrap: wrap;
+    padding: 60px 32px 60px 32px;
+  }
   .greeting {
     height: 24px;
     // font-family: ProximaNova;
@@ -16,6 +25,7 @@
 
   .contact-content {
     display: flex;
+    flex-wrap: wrap-reverse;
 
     .contact-form {
       display: flex;
@@ -23,6 +33,10 @@
       flex-direction: column;
       margin-top: 38px;
       margin-right: 117px;
+
+      @media only screen and (max-width: 768px) {
+        flex: 0 0 90%;
+      }
 
       .Contact-textField-2 {
         margin-left: 0;
@@ -50,6 +64,9 @@
       .form-bottom {
         margin-top: 30px;
         display: flex;
+        @media only screen and (max-width: 414px) {
+          flex-direction: column;
+        }
         // font-family: ProximaNova;
         font-size: 14px;
         font-weight: normal;
@@ -57,12 +74,18 @@
         font-stretch: normal;
         line-height: normal;
         letter-spacing: normal;
+        justify-content: space-between;
+
         .tell-more {
           display: flex;
           align-items: center;
           svg {
             margin-left: 8px;
           }
+        }
+
+        button {
+          font-size: 14px;
         }
 
         .form-bottom-right {
@@ -75,9 +98,10 @@
           display: inline-block;
           font-size: 16px;
           border-bottom: 1px solid #ffffff;
+          font-size: 14px;
+          width: 60px;
           cursor: pointer;
         }
-        justify-content: space-between;
       }
 
       .MuiInputLabel-animated-17 {
