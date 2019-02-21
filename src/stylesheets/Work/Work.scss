@@ -20,8 +20,7 @@
     flex-wrap: wrap;
 
     .project-img {
-      flex: 0 0 45%;
-      margin-right: 117px;
+      flex: 0 0 50%;
     }
   
     .project-details {
@@ -94,7 +93,7 @@
 @media only screen and (max-width: 1440px) {
   .project-img {
     img {
-      width: 120%;
+      width: 100%;
     }
   }
 }
