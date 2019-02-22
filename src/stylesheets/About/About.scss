@@ -6,6 +6,10 @@
   height: auto;
   margin-top: 50px;
   padding-bottom: 65px;
+  padding: 56px 136px 0px 136px;
+  @media only screen and (max-width: 414px) {
+    padding: 0;
+  }
   .title {
     height: 34px;
     // font-family: ProximaNova;
@@ -22,7 +26,7 @@
 
   .about-showcase {
     margin-top: 105px;
-    padding: 0px 100px;
+    padding: 56px 0px;
     display: flex;
     flex-wrap: wrap;
     @media only screen and (max-width: 1024px) {

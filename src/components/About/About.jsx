@@ -24,7 +24,7 @@ class About extends Component {
               alt="about"
               src="./img/about1.png"
               srcSet="./img/about1@2x.png 2x, ./img/about1@3x.png 3x,"
-              style={{ width: '188px', height: '113px' }}
+              style={{ width: '188px', height: '135px' }}
               className="flag-ship"
             />
             <h3>
@@ -77,7 +77,7 @@ class About extends Component {
             <img
               alt="about"
               src="./img/about3.png"
-              style={{ width: '90px', height: '134px' }}
+              style={{ width: '90px', height: '135px' }}
               srcSet="./img/about3@2x.png 2x, ./img/about3@3x.png 3x,"
             />
             <h3>

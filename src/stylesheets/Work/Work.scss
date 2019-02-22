@@ -1,8 +1,12 @@
 .work-container {
   background-color: #1c1c1d;
   color: #ffffff;
-  height: 100%;
-  padding: 50px 136px 50px 136px;
+  height: 100vh;
+  padding: 56px 136px 0px 136px;
+
+  @media only screen and (max-width: 1024px) {
+    height: 100%;
+  }
 
   @media only screen and (max-width: 768px) {
     flex-wrap: wrap;
