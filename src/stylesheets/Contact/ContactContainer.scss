@@ -1,17 +1,17 @@
-.contact-section {
+.contact-section-container {
   background-color: #1c1c1d;
   color: #ffffff;
-  padding: 54px 76px 0px 76px;
+  padding: 102px 256px 0px 256px;
   height: 100vh;
   @media only screen and (max-width: 1024px) {
-    height: auto;
+    height: 100%;
+    padding: 128px 32px 128px 32px;
   }
   @media only screen and (max-width: 768px) {
     flex-wrap: wrap;
   }
 
   @media only screen and (max-width: 414px) {
-    flex-wrap: wrap;
     padding: 60px 32px 60px 32px;
   }
   .greeting {
@@ -57,6 +57,21 @@
         letter-spacing: normal;
         color: #ffffff;
         width: 257px;
+      }
+
+      iframe {
+        border: none;
+        width: 200%;
+        height: 50%;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        @media only screen and (max-width: 1024px) {
+          width: 150%;
+        }
+        @media only screen and (max-width: 414px) {
+          width: 100%;
+        }
       }
     }
   }

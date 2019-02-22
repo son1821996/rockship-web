@@ -12,7 +12,7 @@ class Navigation extends Component {
     return (
       <div className="navigation">
         <div className="nav-left" style={{ display: 'flex' }}>
-          <img alt="logo" src="./img/logo.png" className="logo" />
+          <Link to="/"><img alt="logo" src="./img/logo.png" className="logo" /></Link>
           <ul className="navigation_list">
             <li className="nav_item">
               <Link to="/">Home</Link>
@@ -32,7 +32,7 @@ class Navigation extends Component {
           </ul>
         </div>
         <div className="nav-right">
-        Come say hi!
+          <Link to="/contact">Come say hi!</Link>
         </div>
       </div>
     );

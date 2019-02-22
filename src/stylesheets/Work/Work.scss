@@ -1,11 +1,11 @@
 .work-container {
   background-color: #1c1c1d;
   color: #ffffff;
-  padding: 50px 66px 50px 76px;
+  height: 100%;
+  padding: 50px 136px 50px 136px;
 
   @media only screen and (max-width: 768px) {
     flex-wrap: wrap;
-    padding: 60px 50px 100px 60px;
   }
 
   @media only screen and (max-width: 414px) {
@@ -20,14 +20,15 @@
     flex-wrap: wrap;
 
     .project-img {
-      flex: 0 0 50%;
+      flex: 0 0 45%;
+      margin-right: 64px;
     }
   
     .project-details {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 1024px) {
         margin-top: 48px;
       }
       .section-title {
@@ -61,6 +62,10 @@
         width: 450px;
         height: 65px;
         margin-top: 8px;
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+          margin-top: 48px;
+        }
         // font-family: ProximaNova;
         font-size: 14px;
         font-weight: 600;

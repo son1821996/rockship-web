@@ -3,8 +3,10 @@ html { font-family: 'Inter UI', sans-serif; }
 @supports (font-variation-settings: normal) {
   html {
     font-family: 'Inter UI var alt', sans-serif;
+    height: 100%;
     body{
       font-family: 'Inter UI var alt', sans-serif;
+      min-height: 100%;
       div {
         outline-style: none;
       }
