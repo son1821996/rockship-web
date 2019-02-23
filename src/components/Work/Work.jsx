@@ -41,13 +41,13 @@ class Work extends Component {
               </div>
               <div className="description-item">
                 <span>Responsibility: </span>
-               Backend/API, Architecture, iOS
+                {project.responsibility}
               </div>
               <div className="description-item">
                 <span>
               Technology:&nbsp;
                 </span>
-                 Python, Swift, Nginx, Stella
+                {project.tech}
               </div>
             </div>
           </div>

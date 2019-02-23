@@ -7,6 +7,7 @@ import {
 
 import Home from './containers/Home';
 import ContactContainer from './containers/ContactContainer';
+import News from './containers/News';
 
 // eslint-disable-next-line react/prefer-stateless-function
 export default class Routes extends Component {
@@ -17,6 +18,7 @@ export default class Routes extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/contact" component={ContactContainer} />
+          <Route exact path="/News" component={News} />
         </Switch>
       </Router>
     );

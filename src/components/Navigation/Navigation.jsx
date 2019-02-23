@@ -21,7 +21,7 @@ class Navigation extends Component {
               <Link to="/">Work</Link>
             </li>
             <li className="nav_item">
-              <Link to="/">News</Link>
+              <Link to="/news">News</Link>
             </li>
             <li className="nav_item">
               <Link to="/">Blog</Link>
