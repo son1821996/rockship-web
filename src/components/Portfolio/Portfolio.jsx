@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../../stylesheets/Work/Work.scss';
+import '../../stylesheets/Portfolio/Portfolio.scss';
 
 class Work extends Component {
   constructor(props) {

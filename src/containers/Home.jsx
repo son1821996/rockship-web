@@ -9,7 +9,7 @@ import '../stylesheets/Home/Home.scss';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 import About from '../components/About/About';
-import Work from '../components/Work/Work';
+import Portfolio from '../components/Portfolio/Portfolio';
 
 class Home extends Component {
   constructor(props) {
@@ -105,7 +105,7 @@ class Home extends Component {
         </header>
         <About />
         <Service />
-        <Work />
+        <Portfolio />
         <Clients />
         <Contact />
         <Footer />
