@@ -54,9 +54,10 @@
   .service-list {
     display: flex;
     flex-wrap: wrap;
+    flex: 0 0 65%;
     
     .service-item {
-      height: 288px;
+      height: 264px;
       padding: 16px 16px;
       flex: 0 0 40%;
       margin-right: 32px;
