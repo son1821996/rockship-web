@@ -16,7 +16,7 @@
     margin-top: 40px;
   }
 
-  .Contact-textField-2 {
+  .ContactForm-textField-2 {
     margin-left: 0;
     width: 100%;
     color: #ffffff;
@@ -24,6 +24,10 @@
     top: 50px;
     @media only screen and (max-width: 414px) {
       top: 60px;
+    }
+
+    label {
+      color: #ffffff;
     }
   }
 
@@ -74,10 +78,6 @@
     @media only screen and (max-width: 414px) {
       top: 100px;
     }
-  }
-
-  label {
-    color: #ffffff;
   }
 
   input {
@@ -152,10 +152,11 @@
       cursor: pointer;
       margin-top: 48px;
       @media only screen and (max-width: 414px) {
-        margin-top: 0px;
+        margin-top: 24px;
         width: 20%;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 8px;
       }
     }
   }
