@@ -137,6 +137,9 @@
           width: 330px;
           filter: grayscale(100%);
           transition: all 0.4s ease-in-out 0s;
+          @media only screen and (max-width: 1024px) {
+            filter: blur(1px);;
+          }
   
           &:hover {
             filter: grayscale(0) blur(3px);
@@ -146,6 +149,10 @@
         .content-title {
           text-align: center;
           opacity: 0;
+          @media only screen and (max-width: 1024px) {
+            opacity: 1;
+            top: 32%;
+          }
           margin: 0;
           position: absolute;
           width: 100%;
