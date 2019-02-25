@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
-import NewsThumbnail from '../components/News/NewsThumbnail';
+import PortfoliosThumbnail from '../components/Portfolio/PortfoliosThumbnail';
 import Navigation from '../components/Navigation/Navigation';
 import Footer from '../components/Footer/Footer';
 
@@ -61,7 +61,7 @@ class PortfolioContainer extends Component {
             ))}
           </div>
           <div className="list-item">
-            <NewsThumbnail />
+            <PortfoliosThumbnail />
           </div>
         </section>
         <Footer />

@@ -1,16 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import object from 'prop-types';
+import { Link, withRouter } from 'react-router-dom';
 import KeyboardBackspace from '@material-ui/icons/KeyboardBackspace';
 
-const Sidebar = () => (
-  <Link to="/news">
-    <div className="sidebar-container">
-      <Link to="/">
-        <img src="../img/logo.png" alt="logo" />
-      </Link>
-      <KeyboardBackspace style={{ color: '#ffffff' }} />
-    </div>
-  </Link>
-);
+import '../../stylesheets/Sidebar/Sidebar.scss';
 
-export default Sidebar;
+const Sidebar = (props) => {
+  const { history } = props;
+  console.log('match', history);
+  return (
+    <Link to="/news">
+      <div className="sidebar-container">
+        <Link to="/">
+          <img src="../img/logo.png" alt="logo" />
+        </Link>
+        <KeyboardBackspace style={{ color: '#ffffff' }} />
+      </div>
+    </Link>
+  );
+};
+
+Sidebar.propTypes = {
+  history: object.isRequired,
+};
+
+export default withRouter(Sidebar);
