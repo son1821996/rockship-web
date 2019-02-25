@@ -4,7 +4,7 @@ import NewsThumbnail from '../components/News/NewsThumbnail';
 import Navigation from '../components/Navigation/Navigation';
 import Footer from '../components/Footer/Footer';
 
-import '../stylesheets/News/News.scss';
+import '../stylesheets/SubPage.scss';
 
 class PortfolioContainer extends Component {
   constructor(props) {

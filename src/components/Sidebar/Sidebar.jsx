@@ -7,10 +7,17 @@ import KeyboardBackspace from '@material-ui/icons/KeyboardBackspace';
 import '../../stylesheets/Sidebar/Sidebar.scss';
 
 const Sidebar = (props) => {
-  const { history } = props;
-  console.log('match', history);
+  const { match } = props;
+
+  let linkBack;
+  if (match.url === '/news/details') {
+    linkBack = '/news';
+  } else if (match.url === '/portfolio/details') {
+    linkBack = '/portfolio';
+  }
+
   return (
-    <Link to="/news">
+    <Link to={linkBack}>
       <div className="sidebar-container">
         <Link to="/">
           <img src="../img/logo.png" alt="logo" />
@@ -22,7 +29,7 @@ const Sidebar = (props) => {
 };
 
 Sidebar.propTypes = {
-  history: object.isRequired,
+  match: object.isRequired,
 };
 
 export default withRouter(Sidebar);
