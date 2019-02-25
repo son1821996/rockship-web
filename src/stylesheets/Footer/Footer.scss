@@ -10,6 +10,8 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+  position: relative;
+  z-index: 9999;
   // font-family: ProximaNova
   @media only screen and (max-width: 768px) {
     flex-direction: column;

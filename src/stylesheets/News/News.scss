@@ -10,6 +10,7 @@
 
   .news-header {
     padding-left: 136px;
+    padding-right: 136px;
     @media only screen and (max-width: 1024px) {
       padding-left: 0px;
     }
@@ -37,8 +38,17 @@
         line-height: normal;
         letter-spacing: normal;
         color: #ffffff;
-        margin-top: 24px; 
+        
+      }
 
+      .dash, .title {
+        margin-left: 120px;
+        @media only screen and (max-width: 992px) {
+          margin-left: 32px;
+        }
+        @media only screen and (max-width: 568px) {
+          margin-left: 0px;
+        }
       }
     }
     
@@ -47,7 +57,6 @@
       flex-direction: column;
       justify-content: center;
       .project-name {
-        height: 39px;
         margin-top: 32px;
         // font-family: ProximaNova;
         font-size: 32px;
@@ -60,8 +69,8 @@
       }
 
       .project-description {
-        height: 65px;
         margin-top: 8px;
+        width: 450px;
         // font-family: ProximaNova;
         font-size: 14px;
         font-weight: 600;
@@ -70,6 +79,9 @@
         line-height: normal;
         letter-spacing: normal;
         color: #757575;
+        @media only screen and (max-width: 568px) {
+          width: 320px;
+        }
       }
 
       .description-item {
@@ -98,6 +110,7 @@
     justify-content: center;
 
     .thumbnail-container {
+      align-items: center;
       flex: 0 0 30%;
       display: flex;
       flex-direction: column;
@@ -105,13 +118,18 @@
       margin-left: 16px;
       margin-right: 16px;
       @media only screen and (max-width: 767px) {
-        margin-right: 0;
-      }
-      @media only screen and (max-width: 767px) {
         margin-left: 32px;
+        margin-right: 0;
       }
       img {
         height: 330px;
+        width: 330px;
+        filter: grayscale(100%);
+        transition: filter 0.3s;
+
+        &:hover {
+          filter: grayscale(0);
+        }
       }
 
       .news-title {
@@ -133,7 +151,7 @@
 
       .short-text {
         // font-family: ProximaNova;
-        // width: 300px;
+        width: 330px;
         margin-top: 8px;
         font-size: 14px;
         font-weight: 600;
