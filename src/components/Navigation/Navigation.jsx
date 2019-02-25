@@ -12,16 +12,16 @@ class Navigation extends Component {
     return (
       <div className="navigation">
         <div className="nav-left" style={{ display: 'flex' }}>
-          <img alt="logo" src="./img/logo.png" className="logo" />
+          <Link to="/"><img alt="logo" src="./img/logo.png" className="logo" /></Link>
           <ul className="navigation_list">
             <li className="nav_item">
               <Link to="/">Home</Link>
             </li>
             <li className="nav_item">
-              <Link to="/">Work</Link>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className="nav_item">
-              <Link to="/">News</Link>
+              <Link to="/news">News</Link>
             </li>
             <li className="nav_item">
               <Link to="/">Blog</Link>
@@ -32,7 +32,7 @@ class Navigation extends Component {
           </ul>
         </div>
         <div className="nav-right">
-        Come say hi!
+          <Link to="/contact">Come say hi!</Link>
         </div>
       </div>
     );
