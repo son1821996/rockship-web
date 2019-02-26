@@ -36,7 +36,7 @@ class PortfolioContainer extends Component {
                 }}
               />
               <div className="title">
-                Portfolio
+                news
               </div>
             </div>
             {projects.map(project => (

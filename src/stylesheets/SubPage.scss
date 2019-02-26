@@ -11,14 +11,21 @@
   .page-header {
     padding-left: 136px;
     padding-right: 136px;
-    @media only screen and (max-width: 1024px) {
-      padding-left: 0px;
+    @media only screen and (max-width: 1440px) {
+      padding-left: 64px;
+      padding-right: 36px;
     }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 1024px) {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    @media only screen and (max-width: 768px) {
       flex-direction: column;
     }
     @media only screen and (max-width: 568px) {
       align-items: flex-start;
+      padding-left: 0px;
+      padding-right: 0px;
     }
     display: flex;
     align-items: center;
@@ -42,11 +49,7 @@
       }
 
       .dash, .title {
-        margin-left: 120px;
         @media only screen and (max-width: 992px) {
-          margin-left: 32px;
-        }
-        @media only screen and (max-width: 568px) {
           margin-left: 0px;
         }
       }
@@ -108,6 +111,9 @@
     margin-top: 86px;
     margin-bottom: 64px;
     justify-content: center;
+    @media only screen and (max-width: 1024px) {
+      margin-top: 24px;
+    }
 
     .thumbnail-container {
       align-items: center;
